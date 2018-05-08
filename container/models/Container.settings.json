@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "container",
+  "info": {
+    "name": "container",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contents": {
+      "collection": "content",
+      "via": "container",
+      "plugin": " "
+    }
+  }
+}

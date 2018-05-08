@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/container",
+      "handler": "Container.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/container/:_id",
+      "handler": "Container.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/container",
+      "handler": "Container.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/container/:_id",
+      "handler": "Container.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/container/:_id",
+      "handler": "Container.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
